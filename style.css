@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+h2{
+    color: #fc721e;
+    font-weight: 700;
+
+}
+
+body,h1,h2,{
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+
+}
+
+p{
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*header- top start */
+.header-top {
+    background: black;
+    color: white;
+    padding: 8px 0;
+}
+
+.header-top i.fa {padding-right: 8px;color: orange;}
+
+.social-icon a {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 60px;
+    border: 1px solid brown;
+    text-align: center;
+    transition: .6s;
+    padding-left: 4px;
+   
+}
+.social-icon {
+    padding-left: 70px;
+}
+
+.social-icon a:hover {
+    background: cornflowerblue;
+    border-color: transparent;
+}
+
+.social-icon i.fa {
+    color: azure;
+}
+/* header-top end */
+
+
+   /*-- header-bottom  */
+h1.site-logo {
+    display: inline-block;
+    border: 1px solid;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header-bottom {
+    padding: 20px 0;
+}
+
+.menu ul {list-style: none;
+    margin: 0;
+    padding: 5px 0;}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: 700;
+    color: gray;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+.menu {
+    padding-left: 40%;
+}
+.menu li a:hover {
+    border: 1px solid cornflowerblue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+ /*-- header-bottom ending */
+  
+
+ .slide-bg-1{
+    background-image: url(Assets/img/service-bg-1.jpg);
+ }
+.slide-bg-2{
+    background-image: url(Assets/img/service-bg-2.jpg);
+ }.slide-bg-3{
+    background-image: url(Assets/img/service-bg-3.jpg);
+ }
+
+ .single-slide-item {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+
+.single-slide-item:after{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    opacity: .6;
+    background: black;
+}
+
+
+.single-slide-item:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .6;
+    z-index: -1;
+}
+
+
+.single-slide-item .d-table-cell{
+    vertical-align: middle;
+}
+
+.boxed.btn {
+    display: inline-block;
+    border: 1px solid orange;
+    padding: 8px 12px;
+    color: aquamarine;
+    background: brown;
+    transition: .4s;
+}
+
+.boxed.btn:hover{
+    background: transparent;
+}
+
+.boxed.btn.bordered.box {
+    background: transparent;
+    color: azure;
+    border: 1px solid darkturquoise;
+    transition: .5s;
+}
+
+.boxed.btn.bordered.box:hover {
+    background: red;
+}
+
+.single-slide-item h2{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.single-slide-item p{
+    line-height: 1.5;
+}
+.single-slide-item a{
+    margin-right: 15px;
+}
+
+
+
+.space-60{
+    padding-bottom: 60px;
+}
+.space-50{
+    padding-bottom: 50px;
+}
+/*service box css*/
+
+.section-padding.padding-buttom-0 {
+    padding-bottom: 0;
+}
+
+.single-service-item {
+    position: relative;
+    text-align: center;
+    transition: .6s;
+}
+
+.service-bg {
+    background: #ddd;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.service-title {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+}
+
+.service-title h2 {
+    color: indigo;
+    background: cadetblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+}
+
+
+
+.service-content {
+    border: 1px solid #aab;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.service-btn-arrow {
+    color: darkmagenta;
+}
+
+.service-btn-arrow i.fa {
+    padding-left: 8px;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+.single-service-item:hover{
+	box-shadow: 0 0 10px red;
+}
+
+/*About us css */
+.grey-bg{
+    background: #f4f4f4;
+}
+
+
+.border-img {
+    position: relative;
+}
+
+.border-img:after {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 5px;
+    height: 70%;
+    content: "";
+    background: #fc721e;
+}
+
+
+.border-img:before {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 15%;
+    width: 5px;
+    height: 70%;
+    content: "";
+    background: #fc721e;
+}
+
+.about-text{
+    padding:72px 0;
+}
+
+/* cta area */
+.cta .boxed-btn:hover{
+    background: transparent;
+    color: #fff;
+}
+
+    
+.cta .boxed-btn {
+    display: inline-block;
+    border: 1px solid orange;
+    padding: 8px 12px;
+    color: aquamarine;
+    background: brown;
+    transition: .4s;
+}
+
+
+.cta {
+    background: #fc721e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.cta h3{
+    margin: 4px 0;
+    font-size: 20px;
+}
+
+
+.team-bg {
+    height: 250px;
+    width: 100%;
+    background: darkgray;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.team-bg:after {
+	position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background: #fc721e;
+    transition: .6s;
+ }
+
+ .single-team-item:hover .team-bg:after{
+ 	opacity: .6;
+ 	visibility: visible;
+ }
+ .team-info {
+    border: 1px solid darkgrey;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.team-info h3 {
+    font-weight: 600;
+}
+.team-social-links a {
+    border: 1px solid aquamarine;
+    line-height: 33px;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    color: black;
+    margin: 0 2px;
+    transition: .6s;
+    border-radius: 60px;
+    
+}
+
+.team-social-links a:hover {
+	background: #2D94A7;
+}
+.team-bg-1{background-image: url(Assets/img/team-1.jpg);}
+
+/* project css */
+.single-project-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 250px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+
+.project-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 230px;
+    background: #ddd;
+    background-position: center;
+    background-size: cover;
+    z-index: 2; 
+
+}
+
+.project-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: orange;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -2;
+    transition: .6s;
+}
+
+.single-project-item:hover .project-bg:after {
+    opacity: .6;
+    visibility: visible;
+}
+
+.single-project-item:hover h3, .single-project-item:hover .service-btn{
+	color: orange;
+}
+.single-project-item h3 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.project-bg-1{background-image: url(Assets/img/project-bg-1.jpg);}
+  
+
+
+
+.footer-area {
+    background: black;
+    padding: 60px 0;
+    color: azure;
+}
+
+.footer-area a {
+    color: cornflowerblue;
+}
+
+.widget-title {
+    font-size: 15px;
+    margin: 0;
+    position: relative;
+    color: crimson;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.widget-title:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: orangered;
+    content: "";
+}
+
+
+
+.footer-text p {
+    line-height: 1.5;
+}
+
+.footer-text a {
+    margin-top: 15px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu a {
+    display: block;
+    padding-bottom: 15px;
+    transition: .6s;
+}
+
+.footer-menu a:hover{
+	color: red;
+}
+
+.single-post {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.footer{padding-left: 20px}
+.footer a {
+    padding-right: 8px;
+}
+
+
+
+
+/* extra */
+.team-info {
+    transition: .6s;
+}
+
+.single-team-item:hover {box-shadow: 0 0 10px chartreuse;}
+
+.team-info:hover {
+    background: darkkhaki;
+}
+
+.service-bg-1 {
+    background-image: url(Assets/img/service-bg-1.jpg);
+}
+
+.email-subscribe {
+    background: #333;
+    margin-top: 30px;
+}
+
+.email-subscribe input {width: 84%;}
+
+.email-subscribe button {
+    float: right;
+    width: 15%;
+}
+
+.email-subscribe input, .email-subscribe button{
+	background: none;
+	border: none;
+	padding: 10px;
+	color: #fff;
+}
+
+
+.footer-widget i.fa{
+    color: #fc3;
+    padding-right: 10px;
+    line-height: 1.8;
+}
+
+
+
+.id{
+	animation-delay:3s;
+	animation-duration: 2s;
+	animation-iteration-count:infinite;
+}
+
+.item{
+	background: red;
+	width: 100%;
+	height: 100%;
+	margin: 308px auto 0 auto;
+
+}
